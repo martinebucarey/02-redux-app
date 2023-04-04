@@ -12,6 +12,7 @@ specifiers:
   '@angular/platform-browser': ^15.0.0
   '@angular/platform-browser-dynamic': ^15.0.0
   '@angular/router': ^15.0.0
+  '@ngrx/store': ^15.4.0
   '@types/jasmine': ~4.3.0
   bootstrap: ^5.2.3
   jasmine-core: ~4.5.0
@@ -34,6 +35,7 @@ dependencies:
   '@angular/platform-browser': 15.2.2_67tth7lseo52y77w7j2bbt7gai
   '@angular/platform-browser-dynamic': 15.2.2_pbblcghlnqr2rvkrg2skpac4ri
   '@angular/router': 15.2.2_xwzj4mrjwxp4oifwfhuohnlasu
+  '@ngrx/store': 15.4.0_scb6h22wbk57qglf27pvbwwqq4
   bootstrap: 5.2.3
   rxjs: 7.5.7
   tslib: 2.5.0
@@ -1941,6 +1943,17 @@ packages:
   /@leichtgewicht/ip-codec/2.0.4:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
+
+  /@ngrx/store/15.4.0_scb6h22wbk57qglf27pvbwwqq4:
+    resolution: {integrity: sha512-OvCuNBHL8mAUnRTS6QSFm+IunspsYNu2cCwDovBNn7EGhxRuGihBeNoX47jCqWPHBFtokj4BlatDfpJ/yCh4xQ==}
+    peerDependencies:
+      '@angular/core': ^15.0.0
+      rxjs: ^6.5.3 || ^7.5.0
+    dependencies:
+      '@angular/core': 15.2.2_rxjs@7.5.7+zone.js@0.12.0
+      rxjs: 7.5.7
+      tslib: 2.5.0
+    dev: false
 
   /@ngtools/webpack/15.2.3_7xdzj7aqbzkckajmxtcajlao3i:
     resolution: {integrity: sha512-mds3EXzEA6nn6X7gBYv0W6yCTw53EmYGFdyK1ZFl/TPboKrkhn9J5SjSDPEc7UQC3tjVwWnOxgNxkPOBpbQzIw==}
